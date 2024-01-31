@@ -1,0 +1,42 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+.primary {
+  background-color: #4CAF4F;
+  color: white;
+}
+
+.secondary {
+  color: #4CAF4F;
+  background-color: transparent;
+}
+
+.small {
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.medium {
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.large {
+  padding: 14px 32px;
+  font-size: 16px;
+  line-height: 24px;
+}

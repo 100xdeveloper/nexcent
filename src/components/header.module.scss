@@ -1,0 +1,38 @@
+.header {
+  padding-left: 105px;
+  padding-right: 140px;
+  background-color: #F5F7FA;
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+
+  a {
+    text-decoration: none;
+    color: #18191F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  a:visited {
+    //color: red;
+  }
+
+}
+
+.buttons {
+  display: flex;
+  gap: 14px;
+}

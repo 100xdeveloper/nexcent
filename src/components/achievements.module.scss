@@ -1,0 +1,72 @@
+@import "base";
+
+.achievements {
+  padding: 64px $SidePadding;
+  display: flex;
+  align-items: center;
+  background-color: #F5F7FA;
+  justify-content: space-between;
+
+  & > div > h1 {
+    color: #4D4D4D;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    padding-bottom: 8px;
+  }
+
+  & > div > h3 {
+    color: #18191F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  span {
+    color: $Primary;
+  }
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+  h1 {
+    color: #4D4D4D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  h3 {
+    color: #717171;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+.icon {
+  margin-right: 16px;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.statswrapper {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

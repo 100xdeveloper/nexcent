@@ -1,0 +1,45 @@
+@import "base";
+
+.unlock {
+  display: flex;
+  padding-top: 42px;
+  padding-left: $SidePadding;
+  padding-right: $SidePadding;
+  justify-content: space-between;
+  align-items: center;
+
+  .rafiki {
+    display: flex;
+    width: 442px;
+    height: 433px;
+    padding: 52px 0.467px 52.005px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  div {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  h1 {
+    color: #4D4D4D;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    padding-bottom: 16px;
+  }
+
+  h3 {
+    padding-bottom: 32px;
+    color: #717171;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
